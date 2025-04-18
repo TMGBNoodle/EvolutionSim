@@ -1,0 +1,17 @@
+
+4/18/25
+Overarching Game Manager:
+Creates initial sets of entities.
+Establishes parameters.
+Dynamic Parameter Changes and Conditions.
+Requires:
+	A datatype that allows for creation of new parameters referenced by String and Id.
+	These parameters are localized for each entity. Every entity has a value for every parameter provided by game manager.
+	Can be updated dynamically. How to allow for variable conditions? Simple add sub call inbuilt in parameter, just code different params in?
+	Can hardcode a few base level things that can be changed on runtime. Probably not, could be a lot of extra work for a relatively small bonus. May reevaluate later.
+Genome can determine parameter? Maybe determines parameter change conditions too? Would be interesting to observe ways to represent each "Entity" outside of a literal creature
+however breaks away from current goals for project so shelving that. May revist.
+
+Actual function of genome:
+Determines Neural net connections, credit to davidrandallmiller (https://www.youtube.com/watch?v=N3tRFayqVtk) for the idea. May recreate his exact neural net model 
+will credit better if I do. More research on NN evolution. Look into transformer networks? Reactive decision trees? Too much right now. Will create game manager.
